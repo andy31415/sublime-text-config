@@ -1,0 +1,33 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+
+    // fonts and sizing
+    "ui_scale": 2.0,  // requires restart
+	"font_size": 12,
+	"font_face": "Fira Code",
+    "font_options": [
+        "subpixel_antialias",
+        "gray_antialias",
+        "dlig",
+        "ss01",
+    ],
+
+    // setting VIM
+    "ignored_packages": [
+    ],
+	"vintage_start_in_command_mode": true,
+	"translate_tabs_to_spaces": true,
+    "vintage_ctrl_keys": true,
+
+    // I like dark schemes
+	"color_scheme": "Monokai.sublime-color-scheme",
+    "theme": "Default Dark.sublime-theme",
+
+    // UI selection
+    "word_wrap": false,
+    "draw_minimap_border": true,
+    "highlight_line": true,
+    "block_caret": true,
+    "draw_white_space": ["selection", "trailing"],
+}
